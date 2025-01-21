@@ -1,11 +1,35 @@
 .grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    gap: 20px;
+    padding: 20px;
+}
 
+header{
+    grid-column: 2/ span 2;
+    text-align: center;
 }
 
 .about-wrapper{
-
+ grid-area: 2/ 1/ 2/ 1;
 }
 
-.image-wrapper{
+.mind-wrapper{
+    grid-area: 2/ 2/ 4/ 2;
+}
     
+.body-wrapper{
+   grid-area: 2/ 3/ 4/ 3;
 }
+
+.soul-wrapper{
+   grid-area: 2/ 4/ 4/ 4;
+}
+
+.links-wrapper{
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+
