@@ -6,10 +6,19 @@ body {
     padding: 20px;
 }
 
-h1, h2 {
-    color: #f4f2ef;
+h1{
+    color: #b44b28;
+    font-size: 75px;
 }
 
+h2{
+    color: #ffd7b9;
+    font-size: 80px;
+}
+
+p{
+    color: #ffd7b9;
+}
 
 .grid-container {
     display: grid;
@@ -31,7 +40,7 @@ footer {
     text-align: center;
     margin-top: 30px;
     font-size: 14px;
-    color: white;
+    color: #b44b28;
 }
 
 
@@ -59,13 +68,13 @@ footer {
 
 .link-wrapper a {
     font-size: 16px;
-    color: #94b6ef;
+    color: #4f67b1;
     text-decoration: none;
 }
 
 .link-wrapper a:hover {
     text-decoration: underline;
-    color: #e6e279;
+    color: #b44b28;
 }
 
 
