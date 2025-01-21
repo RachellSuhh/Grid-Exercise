@@ -1,13 +1,13 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f4f0;
+    background-color: #ffd7b9;
     margin: 0;
     padding: 20px;
 }
 
 h1, h2 {
-    color: #333;
+    color: #f4f2ef;
 }
 
 
@@ -24,27 +24,30 @@ header {
     grid-column: 1 / -1; 
     text-align: center;
     margin-bottom: 30px;
+    font-family: "Shizuru", serif;
 }
 
 footer {
     text-align: center;
     margin-top: 30px;
     font-size: 14px;
-    color: #555;
+    color: white;
 }
 
 
 .about-wrapper {
     grid-column: 1 / -1; 
-    background-color: #fff;
-    padding: 20px;
+    background-color: #4f67b1;
+    border: solid #b44b28 2px;
     border-radius: 10px;
+    padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .mind-wrapper, .body-wrapper, .soul-wrapper {
-    background-color: #fff;
+    background-color: #4f67b1;
     padding: 20px;
+    border: solid #b44b28 2px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -56,12 +59,13 @@ footer {
 
 .link-wrapper a {
     font-size: 16px;
-    color: #0073e6;
+    color: #94b6ef;
     text-decoration: none;
 }
 
 .link-wrapper a:hover {
     text-decoration: underline;
+    color: #e6e279;
 }
 
 
@@ -86,3 +90,10 @@ p {
     margin: 10px 0;
     line-height: 1.5;
 }
+
+.shizuru-regular {
+    font-family: "Shizuru", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
