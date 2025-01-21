@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f4f0;
@@ -10,7 +10,7 @@ h1, h2 {
     color: #333;
 }
 
-/* Grid Container */
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -21,7 +21,7 @@ h1, h2 {
 }
 
 header {
-    grid-column: 1 / -1; /* Spans all three columns */
+    grid-column: 1 / -1; 
     text-align: center;
     margin-bottom: 30px;
 }
@@ -33,9 +33,9 @@ footer {
     color: #555;
 }
 
-/* Section Styles */
+
 .about-wrapper {
-    grid-column: 1 / -1; /* Spans all three columns */
+    grid-column: 1 / -1; 
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -50,7 +50,7 @@ footer {
 }
 
 .link-wrapper {
-    grid-column: 1 / -1; /* Spans all three columns */
+    grid-column: 1 / -1; 
     margin-top: 20px;
 }
 
@@ -64,10 +64,10 @@ footer {
     text-decoration: underline;
 }
 
-/* Image Styles */
+
 img {
     width: 100%;
-    max-width: 150px; /* Limit the image size */
+    max-width: 300px; 
     height: auto;
     margin: 15px auto;
     display: block;
@@ -75,7 +75,7 @@ img {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Text Content */
+
 h2 {
     font-size: 18px;
     margin-bottom: 10px;
