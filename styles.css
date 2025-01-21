@@ -8,30 +8,31 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%; /* Four equal columns */
-    grid-template-rows: auto auto auto auto; /* Flexible rows */
+    grid-template-columns: 25% 25% 25% 25%; 
+    grid-template-rows: auto auto auto auto; 
     gap: 20px;
     padding: 20px;
 }
 
 header {
-    grid-column: 1 / -1; /* Header spans all columns */
+    grid-column: 1 / -1; 
     text-align: center;
 }
 
 .about-wrapper {
-    grid-column: 1 / 2; /* First column */
-    grid-row: 2; /* Second row */
+    grid-column: 1 / 2; 
+    grid-row: 2; 
 }
 
 .link-wrapper {
-    grid-column: 1 / 2; /* Same column as about-wrapper */
-    grid-row: 3; /* Directly below about-wrapper */
+    grid-column: 1 / 2; 
+    grid-row: 3; 
 }
 
 .mind-wrapper {
     grid-column: 2 / 3;
     grid-row: 2 / 4;
+    text-align: center;
 }
 
 .body-wrapper {
@@ -44,3 +45,13 @@ header {
     grid-row: 2 / 4;
 }
 
+.soul-wrapper img {
+    max-width: 100%;
+    height: auto;   
+    display: block; 
+}
+
+.mind-wrapper img {
+    max-width: 100%;
+    height: auto;
+}
